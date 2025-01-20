@@ -1,0 +1,125 @@
+@media (max-width: 576px) { 
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #fffbd5,#b20a2c );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    text-align: center;
+    height: 100%;
+  }
+  
+  .card {
+    background-color: #f8d7da;
+    padding: 20px;
+    border: 2px solid #f5c6cb;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 250px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card p {
+    font-size: 18px;
+    font-family: "Playwrite VN", serif;
+    color: #721c24;
+  }
+  
+  .images-container {
+    margin-top: 20px;
+    height: 100%;
+  }
+  div .image-item{
+    width: 90%;
+  }
+  .image-item {
+    margin: 10px 0;
+  }
+  .image-item p{
+    font-family: "DynaPuff", serif;
+  }
+  .image-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 4px solid #D3CCE3;
+    border-radius: 10px 0px 10px;
+    box-shadow: -10px 10px 90px #F3F9A7;
+  }
+  
+  .image-item p {
+    font-size: 16px;
+    color: #333;
+  }
+}
+@media (min-width: 768px) { 
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #fffbd5,#b20a2c );
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+      
+      .container {
+        text-align: center;
+        height: 100%;
+        margin: auto;
+      }
+      
+      .card {
+        background-color: #f8d7da;
+        padding: 20px;
+        border: 2px solid #f5c6cb;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 250px;
+        margin: 20px auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      .card p {
+        font-size: 18px;
+        font-family: "Playwrite VN", serif;
+        color: #721c24;
+      }
+      
+      .images-container {
+        margin-top: 20px;
+        height: 100%;
+      }
+      div .image-item{
+        width: 90%;
+      }
+      .image-item {
+        margin: 10px 0;
+      }
+      .image-item p{
+        font-family: "DynaPuff", serif;
+        font-weight: 800;
+        font-size: 800px;
+      }
+      .image-item img {
+        width: 40%;
+        /* height: 30%; */
+        object-fit: cover;
+        margin-bottom: 10px;
+        border: 4px solid #D3CCE3;
+        border-radius: 10px 0px 10px;
+        box-shadow: -10px 10px 90px #F3F9A7;
+      }
+      
+      .image-item p {
+        font-size: 16px;
+        color: #333;
+      }
+    }
